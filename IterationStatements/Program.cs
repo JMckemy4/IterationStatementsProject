@@ -25,10 +25,10 @@ namespace IterationStatements
                 {
                     num++;
                     numbers.Add(num);
-                    Console.WriteLine(y);
-                    y++;
+                   
+                    
                 } while (num < 100);
-                 num++;
+                 
                  Console.WriteLine(num);
                 // Then add num to the collection - numbers
                 // Hint: reference num inside of the Add method's parentheses
@@ -45,7 +45,7 @@ namespace IterationStatements
                 } // This is to show the user that the numbers will start increasing on the console
                 foreach (var x in numbers)
                 {
-                    Console.WriteLine(numbers);
+                    Console.WriteLine(x);
                 }
 
                 Console.WriteLine("");
